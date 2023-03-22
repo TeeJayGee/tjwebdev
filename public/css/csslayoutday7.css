@@ -1,0 +1,41 @@
+* {
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.side {
+  width: 220px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000000;
+}
+
+.side a {
+  color: white;
+  display: block;
+  padding: 16px;
+}
+
+.side a:hover {
+  background-color: white;
+  color: black;
+}
+
+.content {
+  margin-left:220px;
+  padding-left:220px;
+}
+
+#brand {
+  background-image: url("../img/net.png");
+  background-size: 220px;
+  width: 220px;
+  height: 100px;
+  border: 2px solid;
+  color: black;
+}

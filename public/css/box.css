@@ -1,0 +1,54 @@
+.boxes {
+  border-style: solid;
+  padding: 7px;
+  margin: 20px;
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  background-position: center;
+  justify-content: center;
+  color:blanchedalmond;
+}
+
+#b1 {
+    border-color:blue;
+    background-image: url("../img/dvcode.jpg");
+    /*background-size: cover;*/
+    background-size:auto;
+    /*background-position: 70% 70%;*/
+}
+
+#b2 {
+  border-color:brown;
+  background-image: url("../img/inception.jpg");
+  
+}
+
+#b3 {
+  border-color:chartreuse;
+  background-image: url("../img/inferno.jpg");
+}
+
+#b4 {
+  border-color:darkmagenta;
+  background-image: url("../img/interstellar.jpg");
+}
+
+#b5 {
+  border-color:darkmagenta;
+  background-image: url("../img/silence.jpg");
+}
+
+#b6 {
+  border-color:darkmagenta;
+  background-image: url("../img/angels.jpg");
+}
+
+#b7 {
+  border-color:darkmagenta;
+  background-image: url("../img/terminal.jpg");
+  border-radius: 50%;
+  object-fit: cover;
+  flex-wrap: wrap;
+}

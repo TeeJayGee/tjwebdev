@@ -1,0 +1,95 @@
+h1 {
+  color: white;
+  text-align:center;
+}
+
+div.back{
+  position:relative;
+}
+
+div.center {
+  text-align: center;
+  position:absolute;
+  margin:auto;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  background-color: black;
+  color: #121212;
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.back {
+  height: 600px;
+}
+
+ul {
+  display:inline-flex;
+  list-style-type: none;
+  text-align:left;
+  text-decoration: none;
+}
+
+li:hover a {
+  color:white;
+}
+
+li:hover img{
+  background:white;
+}
+
+li {
+  text-align: center;
+}
+
+li a {
+  color:#a5a5a5;
+  text-decoration: none;
+}
+
+li img {
+  height: 150px;
+  width: 150px;
+  border-radius: 8px;
+  padding:2px 2px;
+  margin: 20px;
+}
+
+li .add {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  padding:2px 2px;
+  margin: 20px;
+}
+
+.manage {
+  text-decoration: none;
+  color:#a5a5a5;
+  padding: 3px;
+  border: 2px 2px #a5a5a5;
+}
+
+div.mp {
+  text-align: center;
+  position:absolute;
+  margin:auto;
+  top:110%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  width: 140px;
+  padding: 5px;
+  border: solid #a5a5a5;
+  margin:0;
+}
+
+.mp:hover a {
+  color:white;
+}
+
+.mp:hover {
+  border: solid white;
+}
